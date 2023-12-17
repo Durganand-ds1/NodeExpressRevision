@@ -33,9 +33,9 @@ const obj = {
 app.get("/",(req,res)=>{
 
     //changing array into 2 table
-    // res.send(arr.map((i)=>{
-    //     return i*2;
-    // }))
+    res.send(arr.map((i)=>{
+        return i*2;
+    }))
 
     //filtering an array
     res.send(arr.filter((i)=>{
